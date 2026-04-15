@@ -1,0 +1,14 @@
+.section-solicitud {
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url('/images/formulario-compra-seguro.webp');
+   /* ruta de la imagen */
+
+   background-position: center;
+   /* centra la imagen */
+   background-repeat: no-repeat;
+   /* evita que se repita */
+}
+

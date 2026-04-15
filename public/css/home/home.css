@@ -1,0 +1,214 @@
+/* Sección Nosotros */
+
+/* Título */
+.titulo-nosotros {
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   font-family: fantasy;
+   font-size: clamp(20px, 2vw, 40px);
+   border: 2px solid #5c92ba;
+   border-radius: 10vmax;
+   padding: 18px;
+   color: #456bb1;
+   margin-bottom: 50px;
+   text-align: center;
+}
+
+/* Cards con efecto 3D y más espacio */
+.card-nosotros {
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   backface-visibility: hidden;
+   /* Oculta la parte trasera y ayuda a suavizar */
+   transform-style: preserve-3d;
+   /* Mantiene la perspectiva 3D */
+   -webkit-font-smoothing: antialiased;
+   /* Mejora suavizado en Safari/Chrome */
+   -moz-osx-font-smoothing: grayscale;
+   /* Mejora suavizado en Firefox */
+   border-radius: 10px;
+   background: #fff;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+   transition: all 0.3s ease;
+   padding: 30px;
+   /* aumenta espacio interno */
+   margin-bottom: 40px;
+   /* espacio entre filas */
+}
+
+.card-nosotros:hover {
+   transform: translateY(-10px);
+   /* solo sube la card */
+   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+.card-nosotros img {
+   max-width: 100%;
+   max-height: 250px;
+   object-fit: contain;
+   transition: transform 0.3s ease;
+}
+
+.paso {
+   font-size: 30px;
+   color: #486cae;
+   font-family: system-ui;
+   font-weight: 700;
+}
+
+.contenido-paso p {
+   text-align: justify;
+   font-size: 1.2rem;
+   color: #41629f;
+   max-width: 400px;
+}
+
+/* Columnas centradas verticalmente */
+.card-nosotros .col-md-6 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+   .card-nosotros .row {
+      flex-direction: column !important;
+   }
+
+   .card-nosotros .col-md-6 {
+      text-align: center;
+      margin-bottom: 15px;
+   }
+
+   .contenido-paso p {
+      max-width: 100%;
+   }
+}
+
+
+/* From Uiverse.io by gharsh11032000 */
+.animated-button {
+   position: relative;
+   display: flex;
+   align-items: center;
+   gap: 4px;
+   padding: 16px 36px;
+   border: 4px solid;
+   border-color: transparent;
+   font-size: 16px;
+   background-color: inherit;
+   border-radius: 100px;
+   font-weight: 600;
+   color: greenyellow;
+   box-shadow: 0 0 0 2px greenyellow;
+   cursor: pointer;
+   overflow: hidden;
+   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+   position: absolute;
+   width: 24px;
+   fill: greenyellow;
+   z-index: 9;
+   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+   right: 16px;
+}
+
+.animated-button .arr-2 {
+   left: -25%;
+}
+
+.animated-button .circle {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 20px;
+   height: 20px;
+   background-color: greenyellow;
+   border-radius: 50%;
+   opacity: 0;
+   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+   position: relative;
+   z-index: 1;
+   transform: translateX(-12px);
+   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+   box-shadow: 0 0 0 12px transparent;
+   color: #212121;
+   border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+   right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+   left: 16px;
+}
+
+.animated-button:hover .text {
+   transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+   fill: #212121;
+}
+
+.animated-button:active {
+   scale: 0.95;
+   box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+   width: 220px;
+   height: 220px;
+   opacity: 1;
+}
+
+/* ================= Ver más ================= */
+.ver-mas-container {
+   display: flex;
+   justify-content: center;
+   margin: 30px 0;
+}
+
+#ver-mas-btn {
+   background: linear-gradient(135deg, rgb(11, 60, 238), #3b82f6);
+   border: none;
+   border-radius: 12px;
+   padding: 12px 28px;
+   font-size: 1.1rem;
+   font-weight: 600;
+   color: #fff;
+   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+#ver-mas-btn:hover {
+   transform: translateY(-3px);
+   background: linear-gradient(135deg, #3b82f6, #2563eb);
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+#ver-mas-btn:active {
+   transform: translateY(1px);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}

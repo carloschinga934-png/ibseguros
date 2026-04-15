@@ -1,0 +1,458 @@
+/* =======================
+   Banner principal
+======================= */
+.carouselFondo {
+   background-image: url('/images/people.webp');
+   background-size: cover;
+   background-position: center top;
+   background-repeat: no-repeat;
+   height: 400px;
+   position: relative;
+   overflow: hidden;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.container-card {
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   width: 100%;
+   display: flex;
+   max-width: 1100px;
+   margin: auto;
+   flex-wrap: wrap;
+}
+
+.title-cards {
+   width: 100%;
+   max-width: 1080px;
+   margin: auto;
+   padding: 20px;
+   margin-top: 20px;
+   text-align: center;
+   color: #7a7a7a;
+}
+
+.card {
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   width: calc(33.33% - 40px);
+   margin: 20px;
+   border-radius: 6px;
+   overflow: hidden;
+   background: #fff;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+   transition: all 400ms ease-out;
+   cursor: default;
+   box-sizing: border-box;
+}
+
+.card:hover {
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+   transform: translateY(-3%);
+}
+
+.card img {
+   width: 100%;
+   height: 210px;
+}
+
+.card .contenido-card {
+   padding: 15px;
+   text-align: center;
+}
+
+.card .contenido-card h3 {
+   margin-bottom: 15px;
+   color: linear-gradient(90deg, #000046 0%, #1cb5e0 100%);
+}
+
+.card .contenido-card p {
+   line-height: 1.8;
+   color: #6a6a6a;
+   font-size: 14px;
+   margin-bottom: 5px;
+}
+
+.card .contenido-card a {
+   display: inline-block;
+   padding: 10px;
+   margin-top: 10px;
+   text-decoration: none;
+   color: #1e95b6;
+   border: 1px solid #000046;
+   border-radius: 4px;
+   transition: all 400ms ease;
+   margin-bottom: 5px;
+}
+
+.card .contenido-card a:hover {
+   background: linear-gradient(90deg, #000046 0%, #1cb5e0 100%);
+   color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+   .container-card {
+      flex-wrap: wrap;
+   }
+
+   .card {
+      width: calc(100% - 30px);
+      /* Establece el ancho al 100% del contenedor */
+      margin-right: 15px;
+      /* Agrega un margen derecho (ajustable según tus necesidades) */
+      margin-bottom: 15px;
+      /* Agrega un margen inferior (ajustable según tus necesidades) */
+   }
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 56, 129, 0.6);
+}
+
+.overlay h2 {
+   color: white;
+   font-size: 55px;
+   text-align: center;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.overlay .rectangulo {
+   width: 35em;
+   height: 4px;
+   background-color: white;
+   margin: 20px auto 0 auto;
+}
+
+/* =======================
+   Sección "Conoce nuestro trabajo"
+======================= */
+.video-container {
+   max-width: 100%;
+}
+
+.video-container video {
+   width: 100%;
+   height: auto;
+}
+
+/* =======================
+   Sección "Nuestros Agentes"
+======================= */
+.agentes-section {
+   background-color: #1d1b8f;
+   color: white;
+   padding: 80px 0;
+}
+
+.agentes-section .row {
+   align-items: center;
+   gap: 20px;
+}
+
+.agentes-section .agente-img {
+   max-height: 400px;
+   object-fit: contain;
+   transform: scaleX(-1);
+   width: 100%;
+}
+
+.agentes-section .agente-text {
+   text-align: left;
+}
+
+.agentes-section .agente-text h1 {
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+.agentes-section .agente-text p {
+   font-size: 1.1rem;
+   max-width: 500px;
+   margin-bottom: 20px;
+}
+
+.agentes-section .agente-text a {
+   display: inline-block;
+   background: #fff;
+   color: #0d6efd;
+   padding: 10px 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: bold;
+   transition: background 0.3s, color 0.3s;
+}
+
+.agentes-section .agente-text a:hover {
+   background: #0a58ca;
+   color: #fff;
+}
+
+/* =======================
+   Carrusel de logos
+======================= */
+.carrusel {
+   overflow: hidden;
+   width: 100%;
+   background: #fff;
+   padding: 30px 0;
+}
+
+.carrusel-track {
+   display: flex;
+   width: max-content;
+   animation: scroll 30s linear infinite;
+}
+
+.carrusel-item {
+   flex: 0 0 auto;
+   margin: 0 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.carrusel-item img {
+   width: 180px;
+   height: 100px;
+   object-fit: contain;
+}
+
+@keyframes scroll {
+   from {
+      transform: translateX(0);
+   }
+
+   to {
+      transform: translateX(-50%);
+   }
+}
+
+/* =======================
+   Media Queries Responsivos
+======================= */
+@media (max-width: 992px) {
+   .agentes-section .agente-text h1 {
+      font-size: 2rem;
+   }
+
+   .agentes-section .agente-text p {
+      font-size: 1rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .agentes-section .row {
+      flex-direction: column-reverse;
+      text-align: center;
+   }
+
+   .agentes-section .agente-text {
+      margin-bottom: 30px;
+   }
+
+   .agentes-section .agente-text h1 {
+      font-size: 1.8rem;
+   }
+
+   .agentes-section .agente-text p {
+      max-width: 100%;
+   }
+
+   .agentes-section .agente-img {
+      max-height: 300px;
+   }
+}
+
+/* =======================
+   Sector info y filas
+======================= */
+.sector-info {
+   color: #2c39b1;
+}
+
+.fila2 {
+   margin-top: 550px;
+}
+
+.fila1 h3 {
+   text-align: left;
+   margin: 0 20px;
+   margin-bottom: 200px;
+   font-weight: bold;
+}
+
+.fila2 p {
+   margin-top: 20px;
+   text-align: justify;
+}
+
+.fila1 h3,
+.fila2 p {
+   border-bottom: 4px solid #1d1b8f;
+   padding-bottom: 10px;
+   width: 100%;
+   max-width: 712px;
+}
+
+@media screen and (max-width: 550px) {
+
+   .fila1 h3,
+   .fila2 p {
+      text-align: center;
+      margin: 0;
+   }
+
+   .fila2 {
+      margin-top: 10px;
+   }
+
+   .fila1 h3 {
+      font-weight: 700;
+   }
+}
+
+/* =======================
+   Agente section destacada
+======================= */
+.agente-section {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 40px 20px;
+   /* 👈 da aire a los lados */
+   box-sizing: border-box;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+/* 🔹 Solo la card */
+.agente-card {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   background: #fff;
+   border-radius: 15px;
+   padding: 40px 20px;
+   width: 100%;
+   max-width: 1200px;
+   /* 👈 límite elegante */
+   margin: 0 auto;
+   /* 👈 centrado */
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agente-card:hover {
+   transform: translateY(-10px);
+   /* se levanta */
+   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.agente-card img {
+   width: 40%;
+   max-width: 500px;
+   border-radius: 10px;
+}
+
+.agente-card h3 {
+   color: #2c39b1;
+   border-bottom: 3px solid #1d1b8f;
+   padding-bottom: 5px;
+   width: 250px;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.agente-card p {
+   color: #2c39b1;
+   display: inline-block;
+   border-bottom: 3px solid #1d1b8f;
+   padding-bottom: 5px;
+   width: 330px;
+}
+
+.agente-card div {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 15px;
+   padding: 2%;
+}
+
+/* Título igual que el card */
+.agente-section h1 {
+   width: 100%;
+   max-width: 1200px;
+   /* 👈 mismo ancho que la card */
+   margin: 30px auto 0 auto;
+   text-align: center;
+   background-color: #1d1b8f;
+   color: #fff;
+   padding: 30px 20px;
+   border-radius: 8px;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+/* =======================
+   Ajustes extras para evitar scroll horizontal
+======================= */
+body {
+   overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+   .agente-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .agente-section img {
+      width: 80%;
+      max-width: 300px;
+   }
+
+   .agente-section h3,
+   .agente-section p {
+      width: 100%;
+      max-width: 90%;
+   }
+
+   .agente-section div {
+      align-items: center;
+      /* centrado en móvil */
+      text-align: center;
+   }
+}
+
+.carrusel {
+   overflow-x: hidden;
+}

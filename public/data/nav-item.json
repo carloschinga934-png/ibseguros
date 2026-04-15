@@ -1,0 +1,38 @@
+[
+   {
+      "route": "seguros",
+      "icon": "images/logo-blanco.webp",
+      "label": "Seguros",
+      "external": false
+   },
+   {
+      "route": "agentes",
+      "icon": "images/agente.webp",
+      "label": "Agente",
+      "external": false
+   },
+   {
+      "route": "nosotros",
+      "icon": "images/building.webp",
+      "label": "Nosotros",
+      "external": false
+   },
+   {
+      "route": "https://ibseguros.blogspot.com",
+      "icon": "images/blog.webp",
+      "label": "Blog",
+      "external": true
+   },
+   {
+      "route": "contacto",
+      "icon": "images/contacto_1.webp",
+      "label": "Contacto",
+      "external": false
+   },
+   {
+      "route": "consultas",
+      "icon": "images/contacto_1.webp",
+      "label": "Consultas",
+      "external": false
+   }
+]

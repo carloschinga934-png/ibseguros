@@ -1,0 +1,949 @@
+[
+   {
+      "title": "Seguros de Salud",
+      "banner": "images/family-960449_1280.webp",
+      "description": "El seguro de salud es un tipo de póliza de seguro que <strong>proporciona cobertura financiera para gastos médicos y de salud.</strong> Esta cobertura puede incluir consultas médicas, hospitalización, medicamentos recetados, cirugías y otros servicios relacionados con la salud.<strong> El objetivo principal del seguro de salud es ayudar a los asegurados a cubrir los costos asociados con la atención médica</strong>, brindándoles acceso a servicios médicos sin incurrir en gastos significativos de su bolsillo.",
+      "sinopsis": "Un seguro de salud es una inversión en tu bienestar y tranquilidad. Proporciona la seguridad de acceder a atención médica de calidad cuando más lo necesitas.",
+      "items": [
+         "Atención ambulatoria y hospitalaria.",
+         "Te protegemos si eres trabajador independiente.",
+         "Contamos con cobertura frente a accidentes.",
+         "Ofrecemos cobertura internacional para emergencias médicas cuando estás fuera de tu país de origen."
+      ],
+      "offers": [
+         {
+            "icon": "images/img-salud2.webp",
+            "label": "Atención ambulancia y hospitalaria"
+         },
+         {
+            "icon": "images/img-salud.webp",
+            "label": "Te protegemos si eres trabajador independiente"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Programas preventivos gratuitos para diversas etapas de tu vida"
+         }
+      ],
+      "features": [
+         "<strong>Cobertura médica integral</strong>: ambulatoria, hospitalaria y emergencias.",
+         "<strong>Atención nacional e internacional</strong> en salud.",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "salud",
+      "image": "images/seguro-vida.webp",
+      "altImage": "images/seguro-vida.webp"
+   },
+   {
+      "title": "Seguros contra Accidentes",
+      "banner": "images/imagen-seguro-accidentes.webp",
+      "description": "Los seguros contra accidentes ofrecen <strong>protección financiera en caso de lesiones o muerte accidental.</strong> Estos seguros proporcionan <strong>cobertura para gastos médicos, indemnización por incapacidad y beneficios por fallecimiento.</strong> Nuestras pólizas de seguros contra accidentes están diseñadas para brindar tranquilidad a usted y su familia, garantizando que estén protegidos financieramente ante eventos inesperados.",
+      "sinopsis": "Los seguros contra accidentes ofrecen protección financiera en caso de lesiones o muerte accidental. Estos seguros proporcionan cobertura para gastos médicos, indemnización por incapacidad y beneficios por fallecimiento.",
+      "items": [
+         "Beneficio por fallecimiento accidental.",
+         "Cubrimos los costos asociados con la atención médica necesaria como resultado de un accidente, como visitas al médico, hospitalización, cirugía, y otros tratamientos médicos.",
+         "Reembolso de gastos de transporte médico, gastos funerarios o pagos diarios por hospitalización"
+      ],
+      "offers": [
+         {
+            "icon": "images/wallet.webp",
+            "label": "Indemnización por lesiones"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Cobertura de gastos médicos de emergencia derivados del accidente"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Compensación por fallecimiento accidental"
+         }
+      ],
+      "features": [
+         "<strong>Beneficios por fallecimiento Accidental</strong>.",
+         "<strong>Asistencia medica</strong> en caso de accidentes,muerte accidental e incapacidad temporal<strong>a partir de un accidente</strong>.",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "accidentes",
+      "image": "images/seguro-de-accidentes.webp",
+      "altImage": "images/emergency-room - 2.webp"
+   },
+   {
+      "title": "Seguros Oncológico",
+      "banner": "images/imagen-seguro-oncologico.webp",
+      "description": "El seguro oncológico ofrece cobertura especializada para el diagnóstico y tratamiento del cáncer. Este seguro proporciona <strong>protección financiera para los gastos médicos relacionados con el cáncer, incluyendo hospitalización, cirugía, quimioterapia, radioterapia y medicamentos.</strong> Nuestras pólizas de seguro oncológico están diseñadas para <strong>brindar tranquilidad y apoyo financiero</strong> durante momentos difíciles, permitiendo que usted se concentre en su recuperación.",
+      "sinopsis": "Un seguro oncológico ofrece cobertura especializada para el diagnóstico y tratamiento del cáncer. Este seguro proporciona protección financiera para los gastos médicos relacionados con el cáncer, incluyendo hospitalización, cirugía, quimioterapia, radioterapia y medicamentos.",
+      "items": [
+         "Cuentas con un plan anual de exámenes preventivos diferenciados",
+         "Ofrecemos un tratamiento completo, incluyendo cirugías, quimioterapia, radioterapia y terapias dirigidas, entre otros.",
+         "Chequeo preventivo y tratamientos cubiertos al 100%."
+      ],
+      "offers": [
+         {
+            "icon": "images/img-salud2.webp",
+            "label": "Tratamiento del cáncer desde etapas tempranas"
+         },
+         {
+            "icon": "images/medico.webp",
+            "label": "Acceso a médicos oncólogos y centros especializados de alta calidad"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Orientación médica durante todo el proceso"
+         }
+      ],
+      "features": [
+         "<strong>Chequeos preventivos y cobertura completa</strong>",
+         "<strong>Tratamiento integral</strong>: quimio, radio y cirugías cubiertas",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "oncologico",
+      "image": "images/seguro-oncologico.webp",
+      "altImage": "images/seguro-oncologico.webp"
+   },
+   {
+      "title": "Seguros de Ahorro",
+      "banner": "images/salud2.webp",
+      "description": "Los seguros de ahorro son productos financieros que ofrecen una conbinacion de proteccion y ahorro.Funcionan de dos maneras: primero,<strong> te brindan proteccion en caso de eventos abversos </strong>coomo enfermedades graves, accidentes o fallecimiento, proporcionando una suma asegurada a tus beneficios en caso de que ocurra alguno de estos eventos. Segundo, <strong>te permiten ahorrar dinero a corto plazo</strong> ya que parte de tus pagos de primas se invierten en instrumentos financieros con el objetivo de generar rendimientos y acumular un capital.",
+      "sinopsis": "Los seguros de ahorro son productos financieros que ofrecen una combinación de protección y ahorro.",
+      "items": [
+         "Proporcionamos beneficios en caso de fallecimiento del titular del seguro durante el plazo del contrato.",
+         "Tu familia estara protegida desde el primer dia.",
+         "Te ofrecemos una cobertura por fallecimiento para que quienes más amas estén protegidos.",
+         "Tenemos la mejor rentabilidad para tu dinero."
+      ],
+      "offers": [
+         {
+            "icon": "images/img-salud2.webp",
+            "label": "Proteccion financiera en caso de eventos imprevistos"
+         },
+         {
+            "icon": "images/wallet.webp",
+            "label": "Te permitimos acumular un capital a lo largo del tiempo"
+         },
+         {
+            "icon": "images/checklist.webp",
+            "label": "Un plan financiero a largo plazo que pueda ayudar a alcanzar metas"
+         }
+      ],
+      "features": [
+         "<strong>Proporcionamos </strong>beneficios en caso de <strong>fallecimiento del titular</strong> del seguro durante el plazo del contrato",
+         "<strong>Tu familia estará protegida desde el primer dia</strong>.",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "ahorro",
+      "image": "images/seguro-ahorro.webp",
+      "altImage": "images/salud2 - 2.webp"
+   },
+   {
+      "title": "Seguros de Vida a Corto Plazo",
+      "banner": "images/salud-2.1.webp",
+      "description": "Los seguros de vida a corto plazo son pólizas que ofrecen <strong> protección financiera por un periodo de tiempo limitado, </strong>generalmente de uno a diez años. Estas polizas <strong>brindan beneficios en caso de fallecimiento del asegurado</strong> durante el periodo de cobertura.",
+      "sinopsis": "Un seguro de vida de acuerdo con la ley es una garantía de seguridad y protección para ti y tus seres queridos.",
+      "items": [
+         "Garantizamos la estabilidad financiera durante un período específico.",
+         "Protección durante un viaje o una situación de riesgo temporal.",
+         "Cobertura para un proyecto específico.",
+         "Cobertura en caso de fallecimiento."
+      ],
+      "offers": [
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Cobertura de vida por un período específico"
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": "Costos asecibles"
+         },
+         {
+            "icon": "images/feather.webp",
+            "label": "Ofrecen flexibilidad en términos de duración de la cobertura"
+         }
+      ],
+      "features": [
+         "Garantizamos<strong> la estabilidad financiera </strong>durante el periodo especifico",
+         "<strong>Protección</strong>durante un viaje o una <strong>situación de riesgo temporal. </strong>",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "corto-plazo",
+      "image": "images/seguro-corto-plazo.webp",
+      "altImage": "images/salud - 2.webp"
+   },
+   {
+      "title": "Seguros de Vida a Largo Plazo",
+      "banner": "images/banner-financial_accident.webp",
+      "description": "El seguro de vida a largo plazo es una póliza que ofrece <strong> protección financiera a los beneficiarios del asegurado durante un periodo prolongado </strong>de tiempo, generalmente décadas.",
+      "sinopsis": "Un seguro de vida de acuerdo con la ley es una garantía de seguridad y protección para ti y tus seres queridos.",
+      "items": [
+         "Proporcionamos un beneficio por fallecimiento.",
+         "Permitimos la flexibilidad en cuanto al pago de primas y la cantidad de cobertura.",
+         "Beneficios fiscales.",
+         "Proporcionamos al asegurado tener la opción de tomar préstamos contra ese valor o retirar parte de él."
+      ],
+      "offers": [
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Brinda seguridad financiera a los beneficiarios del asegurado"
+         },
+         {
+            "icon": "images/checklist.webp",
+            "label": "Facilita la planificación patrimonial"
+         },
+         {
+            "icon": "images/wallet.webp",
+            "label": "Permite acumular un valor en efectivo con el tiempo"
+         }
+      ],
+      "features": [
+         "<strong>Protección financiera permanente</strong> para tus seres queridos",
+         "<strong>Flexibilidad en pagos</strong> y opción de ahorro o retiro",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "largo-plazo",
+      "image": "images/seguro-largo-plazo.webp",
+      "altImage": "images/seguro-largo-plazo.webp"
+   },
+   {
+      "title": "Seguros Académico",
+      "banner": "images/students.webp",
+      "description": "El seguro academico es una poliza diseñada para <strong> proteger la inversion en la educación de un estudiante, </strong> brindando cobertura financiera en caso de eventos adversos que puedan afectar su capacidad para continuar con sus estudios.",
+      "sinopsis": "El seguro académico es una póliza diseñada para proteger la inversión en la educación de un estudiante, brindando cobertura financiera en caso de eventos adversos que puedan afectar su capacidad para continuar con sus estudios.",
+      "items": [
+         "Ahorro para el futuro universitario.",
+         "Protección de los alumnos contra el riesgo de accidentes dentro o fuera de su centro de estudios.",
+         "Asegurar el pago de las pensiones estudiantiles en caso de fallecimiento del padre o apoderado.",
+         "Elección del monto y el plazo asegurado."
+      ],
+      "offers": [
+         {
+            "icon": "images/img-salud2.webp",
+            "label": "Ayudamos a cubrir los gastos de matricula y colegiatura"
+         },
+         {
+            "icon": "images/wallet.webp",
+            "label": "Permite al estudiante continuar con sus estudios sin interrupciones financieras"
+         },
+         {
+            "icon": "images/checklist.webp",
+            "label": "Aseguramos la educación del menor"
+         }
+      ],
+      "features": [
+         "<strong>Protege al alumno y asegura pensiones escolares</strong>",
+         "<strong>Ahorro para estudios superiores</strong> garantizado",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "academico",
+      "image": "images/seguro-academico.webp",
+      "altImage": "images/seguro-academico.webp"
+   },
+   {
+      "title": "Seguros Vehicular",
+      "banner": "images/watch-916395_1280.webp",
+      "description": "El seguro vehicular es una póliza que brinda <strong> protección financiera a los propietarios de vehículos en caso de accidentes </strong>o daños a su automóvil,<strong> asi como a terceros afectados</strong> por el accidente.",
+      "sinopsis": "Un seguro vehicular es tu escudo de protección en la carretera. Con el seguro de auto, puedes disfrutar de la libertad de conducir sabiendo que estás respaldado en caso de accidentes.",
+      "items": [
+         "Cubrimos los daños a terceros en caso de que seas responsable de un accidente.",
+         "Cobertura por los daños a tu propio vehículo en caso de un accidente, sin importar quién tenga la culpa.",
+         "Ofrecemos protección contra robos, vandalismo, incendios y otros eventos no relacionados con accidentes de tráfico."
+      ],
+      "offers": [
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Ofrece indemnización para reparar el vehículo"
+         },
+         {
+            "icon": "images/bike.webp",
+            "label": "Servicios de asistencia en carretera, como remolque, cambio de neumáticos,etc"
+         },
+         {
+            "icon": "images/car-insurance.webp",
+            "label": "Cubre los gastos legales y la compensación para terceros en caso de lesiones"
+         }
+      ],
+      "features": [
+         "<strong>Protección financiera</strong> para propietarios de vehículos",
+         "<strong>Cobertura en caso de accidentes</strong> o daños al vehículo y a terceros",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "vehicular",
+      "image": "images/seguro-vehicular.webp",
+      "altImage": "images/seguro-vehicular.webp"
+   },
+   {
+      "title": "Seguros de Viajes",
+      "banner": "",
+      "description": "",
+      "sinopsis": "Un seguro de viajes es tu compañero de confianza cuando exploras el mundo. Nuestro seguro de viajes está diseñado para brindarte protección y tranquilidad durante tus aventuras.",
+      "items": [
+         "Cubrimos gastos médicos y hospitalarios en caso de enfermedad o lesión durante el viaje.",
+         "Ofrecemos reembolso de los gastos si debes cancelar o interrumpir tu viaje debido a circunstancias imprevistas, como enfermedad grave, accidente, entre otros.",
+         "Cubrimos la pérdida, robo o daño del equipaje durante el viaje."
+      ],
+      "offers": [
+         {
+            "icon": "",
+            "label": ""
+         },
+         {
+            "icon": "",
+            "label": ""
+         },
+         {
+            "icon": "",
+            "label": ""
+         }
+      ],
+      "features": [
+         "<strong>Cobertura médica durante el viaje</strong>",
+         "<strong>Reembolso</strong> por cancelaciones y pérdida de equipaje",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "viajes",
+      "image": "images/seguro-viajes.webp",
+      "altImage": "images/seguro-viajes.webp"
+   },
+   {
+      "title": "Seguros de Hogar",
+      "banner": "images/houses-6504533_1280.webp",
+      "description": "El seguro de hogar es una póliza diseñada para <strong> proteger la vivienda y los bienes personales </strong> contra diversos riesgos,<strong> como incendios,robos, daños por agua y resposabilidad civil.</strong>.",
+      "sinopsis": "El seguro de hogar es una póliza diseñada para proteger la vivienda y los bienes personales contra diversos riesgos, como incendios, robos, daños por agua y responsabilidad civil.",
+      "items": [
+         "Cubre daños a la estructura de la casa, como paredes, techos, suelos, etc.",
+         "Ofrece protección si alguien resulta lesionado en tu propiedad y decides demandarte.",
+         "Cubrimos los costos de alojamiento si tu casa se vuelve inhabitable debido a un evento cubierto.",
+         "Tenemos la mejor cobertura para tu casa."
+      ],
+      "offers": [
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": ""
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": ""
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": ""
+         }
+      ],
+      "features": [
+         "<strong>Protección para vivienda y bienes personales</strong> contra diversos riesgos",
+         "<strong>Cobertura contra incendios, robos</strong> y daños por agua",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "hogar",
+      "image": "images/seguro-hogar.webp",
+      "altImage": "images/seguro-hogar.webp"
+   },
+   {
+      "title": "Seguros SOAT",
+      "banner": "images/cars-4814015_1280.webp",
+      "description": "El seguro Obligatorio de Accidentes de Tránsito (SOAT) es un seguro obligatorio en muchos países que brinda <strong> cobertura médica y económica a las víctimas de accidentes de tráfico,</strong> sin importar quién sea responsable del accidente.",
+      "sinopsis": "El Seguro Obligatorio de Accidentes de Tránsito (SOAT) es un seguro obligatorio en muchos países que brinda cobertura médica y económica a las víctimas de accidentes de tráfico, sin importar quién sea responsable del accidente.",
+      "items": [
+         "Cobertura por accidentes.",
+         "Cobertura médica, asi como los gastos para la rehabilitación.",
+         "Cubrimos la atencion médica completa.",
+         "Cobertura de sepelio y muerte."
+      ],
+      "offers": [
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Cubrimos los gastos de atención médica de víctimas"
+         },
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "El SOAT ofrece indemnizaciones a sus familiares o a los propios afectados"
+         },
+         {
+            "icon": "images/Hospital.webp",
+            "label": "Te protegemos de los altos costos de la atención médica"
+         }
+      ],
+      "features": [
+         "<strong>Cobertura médica y económica</strong> a víctimas de accidentes de tráfico",
+         "<strong>Indemnizaciones</strong> y protección contra altos costos de atención médica",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "obligatorio-accidentes-transito",
+      "image": "images/seguro-soat.webp",
+      "altImage": "images/seguro-soat.webp"
+   },
+   {
+      "title": "SCTR",
+      "banner": "images/fondo-sctr.webp",
+      "description": "El seguro Complementario de Trabajo de Riesgo (STCR) es un seguro obligatorio en el Perú que <b>brinda cobertura de salud y protección económica a los trabajadores</b> en caso de <b>accidentes laborales o enfermedades ocupacionales.</b>",
+      "sinopsis": "Brindamos el Seguro Complementario de Trabajo de Riesgo (SCTR), un seguro obligatorio que protege a los trabajadores que realizan actividades de alto riesgo.",
+      "items": [
+         "Cobertura integral para salud y seguridad en el trabajo",
+         "Pólizas flexibles adaptadas a las características de tu empresa y necesidades específicas",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de SCTR",
+         "Proceso de gestión de reclamaciones rápido y eficiente"
+      ],
+      "offers": [
+         {
+            "icon": "images/teamwork.webp",
+            "label": "Proporcionamos atención médica para lesiones o enfermedades relacionadas con el trabajo."
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Ofrecemos compensación económica en caso de incapacidad temporal o permanentes"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Brindamos beneficios a los dependientes del trabajador en caso de fallecimiento"
+         }
+      ],
+      "features": [
+         "<strong>Brinda cobertura de salud y protección económica</strong> a los trabajadores",
+         "<strong>Protección en caso de accidentes laborales</strong> o enfermedades ocupacionales",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "complementario-trabajo-riesgo",
+      "image": "images/seguro-sctr.webp",
+      "altImage": "images/seguro-sctr.webp"
+   },
+   {
+      "title": "EPS",
+      "banner": "images/EPS.webp",
+      "description": "La Entidades Prestadoras de Salud (EPS) son empresas especializadas en <b>brindar servicios de atención médica privada a los trabajadores</b> que están afiliados a ellas. Estas entidades funcionan como complemento a la cobertura de EsSalud, ofreciendo a los colaboradores la posibilidad de acceder a un plan de salud privado que les proporciona una atención médica más personalizada y ágil. <b>Las EPS suelen contar con una amplia red de hospitales, clínicas y profesionales de la salud</b>, lo que garantiza a los trabajadores una atención de calidad y una cobertura integral para sus necesidades de salud.",
+      "sinopsis": "El seguro brinda acceso a servicios de salud de calidad a un costo asequible. Los trabajadores que se encuentran afiliados al Seguro EPS tienen derecho a una serie de beneficios.",
+      "items": [
+         "Cobertura completa para servicios médicos y tratamientos.",
+         "Pólizas flexibles adaptadas a tus necesidades de salud.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de salud.",
+         "Proceso de gestión de reclamaciones ágil y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/curita.webp",
+            "label": "Cobertura ilimitada, copagos fijos sin deducibles"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Programas preventivos gratuitos para diversas etapas de tu vida"
+         },
+         {
+            "icon": "images/medico.webp",
+            "label": "Cobertura oncológica al 100%, Medicina Interna, Pediatría, Obstetrícia y más"
+         }
+      ],
+      "features": [
+         "<strong>Brinda servicios de atención médica privada</strong> complementaria a EsSalud",
+         "<strong>Acceso a planes de salud privados</strong> con amplia red de hospitales y clínicas",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "entidades-prestadoras-salud",
+      "image": "images/seguro-eps.webp",
+      "altImage": "images/seguro-eps.webp"
+   },
+   {
+      "title": "Vida Ley",
+      "banner": "images/vida-ley.webp",
+      "description": "El Seguro de Vida Ley es un seguro obligatorio en Perú que brinda <b>protección financiera a los trabajadores</b> y sus beneficiarios en caso de fallecimiento o invalide< total y permanent <b>debido a un accidente laboral o una enfermedad ocupacional.</b>",
+      "sinopsis": "Un seguro de vida de acuerdo con la ley es una garantía de seguridad y protección para ti y tus seres queridos.",
+      "items": [
+         "Ofrecemos remuneraciones mensuales asegurables.",
+         "Protegemos contra la invalidez Total y Permanente por Accidente.",
+         "Cubrimos lesiones y fallecimientos de los empleados.",
+         "Brindamos tranquilidad a los beneficiarios del asegurado fallecido por causas naturales."
+      ],
+      "offers": [
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "Ofrecemos una suma asegurada a los beneficiarios del trabajador en cso de fallecimiento"
+         },
+         {
+            "icon": "images/wallet.webp",
+            "label": "Proporciona una compensación económica para cubrir los gastos médicos y de rehabilitación"
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": "Brinda tranquilidad a los trabajadores y sus familias al asegurar un respaldo financiero"
+         }
+      ],
+      "features": [
+         "<strong>Protección financiera a trabajadores</strong> y sus beneficiarios",
+         "<strong>Cobertura en caso de fallecimiento</strong> o invalidez total y permanente",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "vida-ley",
+      "image": "images/seguro-vida-ley.webp",
+      "altImage": "images/seguro-vida-ley.webp"
+   },
+   {
+      "title": "Seguro de Transporte",
+      "banner": "images/seguro-transporte.webp",
+      "description": "El seguro de transporte es un tipo de póliza que <strong>proporciona cobertura financiera para daños o pérdidas de mercancías durante su traslado.</strong> Esta cobertura puede incluir protección contra robo, accidentes, daños por manipulación y otros riesgos asociados al transporte de bienes.<strong> El objetivo principal del seguro de transporte es proteger la inversión en mercancías</strong>, brindando respaldo financiero ante eventos inesperados durante el tránsito de la carga.",
+      "sinopsis": "El seguro de transporte es un tipo de póliza que proporciona cobertura financiera para daños o pérdidas de mercancías durante su traslado.",
+      "items": [
+         "Protección para la carga.",
+         "Cubrimos todos los envíos dentro de un período determinado, o específicas, cubriendo un solo envío.",
+         "Cubrimos contra el robo con fractura del medio conductor.",
+         "Cubrimos pérdidas o daños a la mercancía durante el tránsito."
+      ],
+      "offers": [
+         {
+            "icon": "images/shipping-icon.webp",
+            "label": "Protección para la carga durante todo el trayecto."
+         },
+         {
+            "icon": "images/security-icon.webp",
+            "label": "Cobertura contra el robo con fractura del medio conductor."
+         },
+         {
+            "icon": "images/package-icon.webp",
+            "label": "Cobertura para pérdidas o daños a la mercancía durante el tránsito."
+         }
+      ],
+      "features": [
+         "<strong>Protege tu mercancía en tránsito</strong>",
+         "<strong>Cubre robos, daños o pérdidas</strong> durante el transporte",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "transporte",
+      "image": "images/seguro-transporte.webp",
+      "altImage": "images/seguro-transporte.webp"
+   },
+   {
+      "title": "Seguros contra Incendios",
+      "banner": "images/incendios.webp",
+      "description": "El seguro contra incendios es una póliza diseñada para <b>proteger a los propietarios</b> de viviendas, negocios u otras propiedades <b>contra los daños causados por incendios.</b> Este tipo de seguro cubre los costos de reparacion o reconstrucción de la propiedad en caso de que sufra daños debido a un incendio. Además de la cobertura básica para daños por fuego, algunas pólizas también pueden incluir cobertura adicional para otros tipos de daños relacionados con incendios, como daños por humo, agua o extinción de incendios.",
+      "sinopsis": "El seguro contra incendios es una póliza diseñada para proteger a los propietarios de viviendas, negocios u otras propiedades contra los daños causados por incendios.",
+      "items": [
+         "Cobertura integral contra daños por incendio.",
+         "Pólizas flexibles adaptadas a tus propiedades y necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros contra incendios.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/currency.webp",
+            "label": "Te protege financieramente ante los daños"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Cubre los costos de reparación o reposición de los bienes"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Ofrece asistencia en caso de incendio"
+         }
+      ],
+      "features": [
+         "<strong>Protección ante incendios</strong> y explosiones",
+         "<strong>Reposición de daños</strong> a la estructura y contenido",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "incendio",
+      "image": "images/seguro-incendio.webp",
+      "altImage": "images/seguro-incendio.webp"
+   },
+   {
+      "title": "Seguros CAR",
+      "banner": "images/architect-banner.webp",
+      "description": "El seguro CAR, o \"Contratistas de Todo Riesgo\", es un póliza diseñada para <b>brindar protección integral a los contratistas y propietarios de proyectos de construcción.</b> Esta cobertura asegura contra una amplia gama de riesgos, <b>incluyendo daños accidentales, robos, vandalismo, incendios y responsabilidad civil.</b>",
+      "sinopsis": "El seguro CAR, o \"Contratistas de Todo Riesgo\", es un póliza diseñada para brindar protección integral a los contratistas y propietarios de proyectos de construcción.",
+      "items": [
+         "Cobertura completa para proyectos de construcción de todo tipo.",
+         "Pólizas flexibles adaptadas a las necesidades específicas de tu proyecto.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de construcción.",
+         "Proceso de reclamaciones rápido y eficiente para minimizar interrupciones."
+      ],
+      "offers": [
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Ofrece protección contra una variedad de riesgos que pueden surgir durante el desarrollo de proyectos de construcción"
+         },
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Garantiza la continuidad de los proyectos al proporcionar una compensación por daños materiales"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Ayuda a mitigar los riesgos financieros al cubrir los costos de reparación o reemplazo de la propiedad dañada"
+         }
+      ],
+      "features": [
+         "<strong>Cubre daños en obras civiles y maquinaria</strong>",
+         "<strong>Seguro integral</strong> para construcción y montajes",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "contratistas-todo-riesgo",
+      "image": "images/seguro-car.webp",
+      "altImage": "images/seguro-car.webp"
+   },
+   {
+      "title": "Seguros contra rotura de maquinaria",
+      "banner": "images/factory.webp",
+      "description": "El seguro de rotura de maquinaria es una póliza <strong> diseñada para proteger a los propietarios de maquinaria industrial y equipos de contra los costos asociados con la reparación o reemplazo de maquinaria </strong> que sufre daños mecánicos o eléctricos inesperados. Esta cobertura puede ser crucial para empresas de maquinaria especializada para su operación, ya que ayuda a mitigar los riesgos financieros asociados con averías inesperadas.",
+      "sinopsis": "El seguro de rotura de maquinaria es una póliza diseñada para proteger a los propietarios de maquinaria industrial y equipos contra los costos asociados con la reparación o reemplazo de maquinaria que sufre daños mecánicos o eléctricos inesperados.",
+      "items": [
+         "Cobertura integral para daños y pérdidas por rotura de maquinaria.",
+         "Pólizas flexibles adaptadas a las características de tus equipos y necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de Rotura de Maquinaria.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "Cubre los costos de reparación o reemplazo de maquinaria dañada devido a roturas mecánicas o eléctricas inesperadas"
+         },
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Ayuda a minimizar las interrupciones en la producción al proporcionar una rápida compensación de maquinaria"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Brinda tranquilidad al propietario de la empresa al saber que está protegido contra los costos imprevistos asociados con las averías de las maquinaria"
+         }
+      ],
+      "features": [
+         "<strong>Cubre daños por fallas internas</strong> o errores humanos",
+         "<strong>Protección total</strong> para equipos industriales y de producción",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "rotura-maquinaria",
+      "image": "images/seguro-rotura-maquinaria.webp",
+      "altImage": "images/seguro-rotura-maquinaria.webp"
+   },
+   {
+      "title": "Responsabilidad Civil",
+      "banner": "images/shaking-banner.webp",
+      "description": "El seguro de responsabilidad civil es una póliza <b>diseñada para proteger a los asegurados contra reclamaciones de responsabilidad civil</b> que pueden surgir como resultado de lesiones personales o daños a la propiedad de terceros durante el curso de sus actividades comerciales o personales. <b>Esta cobertura puede ser vital para proteger los activos y la reputación de un individuo o negocio en caso de demandas legales.</b>",
+      "sinopsis": "El seguro de responsabilidad civil protege a personas y empresas contra reclamos por daños o perjuicios a terceros.",
+      "items": [
+         "Cobertura integral para responsabilidad civil general y profesional.",
+         "Pólizas flexibles adaptadas a las características de tus actividades y riesgos específicos.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de Responsabilidad Civil.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/finance.webp",
+            "label": "Cubre los costos legales asociados con la defensa del asegurado en caso de demandas por lesiones personales o daños"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Proporciona compensación financiera en caso de que el asegurado sea considerado responsable de causar lesiones personales"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Brinda tranquilidad al asegurado al saber que está protegido contra las consecuencias financieras"
+         }
+      ],
+      "features": [
+         "<strong>Cubre daños a terceros</strong> por actividades personales o profesionales",
+         "<strong>Protección legal y económica</strong> frente a reclamaciones",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "responsabilidad-civil",
+      "image": "images/seguro-responsabilidad-civil.webp",
+      "altImage": "images/seguro-responsabilidad-civil.webp"
+   },
+   {
+      "title": "Cascos Marítimos",
+      "banner": "images/digital-art.webp",
+      "description": "El seguro de cascos marítimos es una póliza diseñada para <b>proteger a los propietarios de embarcaciones, operadores marítimos y cargadores contra los riesgos asociados con las actividades marítimas. </b> Este tipo de seguro ofrece cobertura para una amplia gama de riesgos, incluyendo pérdida o daño de la embarcación, resposabilidad civil, y pérdida o daño de la carga trasnportada.",
+      "sinopsis": "El seguro de cascos marítimos cubre embarcaciones de todo tipo contra daños o pérdidas.",
+      "items": [
+         "Cobertura completa para embarcaciones de todo tipo.",
+         "Pólizas flexibles adaptadas a tus necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros marítimos.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/currency.webp",
+            "label": "Ofrecemos una suma asegurada a los beneficiarios del trabajador en cso de fallecimiento"
+         },
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "Proporciona una compensación económica para cubrir los gastos médicos y de rehabilitación"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Brinda tranquilidad a los trabajadores y sus familias al asegurar un respaldo financiero"
+         }
+      ],
+      "features": [
+         "<strong>Cubre embarcaciones</strong> contra daños, naufragios y abordajes",
+         "<strong>Ideal para empresas navieras</strong> o embarcaciones privadas",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "cascos-maritimos",
+      "image": "images/seguro-cascos-maritimos.webp",
+      "altImage": "images/seguro-cascos-maritimos.webp"
+   },
+   {
+      "title": "Lucro Cesante",
+      "banner": "images/office-banner.webp",
+      "description": "El seguro de lucro cesante es una póliza diseñada <strong>para proteger a las empresas contra la pérdida de ingresos que resulta de la interrupción de sus operaciones debido a un evento cubierto,</strong> como un incendio, una inundación u otros desastres. Este tipo de seguro cubre los gastos fijos y proporciona una compensación por la pérdida de ingresos durante el período en que la empresa no puede operar normalmente.",
+      "sinopsis": "El seguro de lucro cesante protege a las empresas frente a la pérdida de ingresos debido a eventos imprevistos que interrumpan su actividad.",
+      "items": [
+         "Cobertura integral para pérdida de ingresos debido a eventos cubiertos.",
+         "Pólizas flexibles adaptadas a las características de tu negocio.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros de Lucro Cesante.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/currency.webp",
+            "label": "Proporcionamos una compensación financiera para cubrir los ingresos perdidos durante el período en que la emrpesa esta inactiva"
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": "Cubrimos los gastos fijos de la empresa, como alquiler, salarios y facturas de servicios públicos"
+         },
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Ayudamos a garantizar la continuidad de negocio al proporcionar una fuente de ingresos para cubrir los costos operativos"
+         }
+      ],
+      "features": [
+         "<strong>Compensa pérdidas de ingresos</strong> tras un siniestro",
+         "<strong>Ideal para negocios afectados</strong> por eventos cubiertos",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "lucro-cesante",
+      "image": "images/seguro-lucros-cesantes.webp",
+      "altImage": "images/seguro-lucros-cesantes.webp"
+   },
+   {
+      "title": "Multirriesgo",
+      "banner": "images/seguro-multiriesgos.webp",
+      "description": "El seguro multiriesgo es un tipo de póliza de seguro que <strong>proporciona cobertura integral para múltiples riesgos en un solo contrato.</strong> Esta cobertura puede incluir protección contra daños materiales, incendios, robos, responsabilidad civil y otros riesgos que puedan afectar a empresas o propiedades.<strong> El objetivo principal del seguro multiriesgo es simplificar la gestión de riesgos</strong>, brindando una solución completa que evita la necesidad de contratar múltiples pólizas individuales.",
+      "sinopsis": "El seguro multirriesgo es una póliza integral que cubre daños materiales y responsabilidad civil en un solo contrato.",
+      "items": [
+         "Cobertura integral para daños materiales y responsabilidad civil.",
+         "Pólizas flexibles adaptadas a las características de tus activos y operaciones.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros Multirriesgos.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/building.webp",
+            "label": "Cobertura integral para daños materiales y responsabilidad civil."
+         },
+         {
+            "icon": "images/checklist.webp",
+            "label": "Pólizas flexibles adaptadas a las características de tus activos y operaciones."
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Proceso de reclamaciones rápido y eficiente para minimizar interrupciones."
+         }
+      ],
+      "features": [
+         "<strong>Un solo seguro para múltiples riesgos</strong>: daños, incendios y responsabilidad civil",
+         "<strong>Flexible y adaptable</strong> a tu empresa o propiedad",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "multirriesgo",
+      "image": "images/seguro-multiriesgos.webp",
+      "altImage": "images/seguro-multiriesgos.webp"
+   },
+   {
+      "title": "TREC",
+      "banner": "images/gears-banner.webp",
+      "description": "El seguro TREC, conocido \"Todo Riesgo Equipo de Contratista\", es una póliza diseñada para <strong>proteger equipos de construcción y maquinaria utilizados en proyectos de obrea civil.</strong> Esta cobertura asegura contra una variedad de riesgos, incluyendo vuelcos, hundimientos, incendios, vandalismo, y daños durante el transporte.",
+      "sinopsis": "El seguro TREC cubre equipos de contratistas contra robo, daño o pérdida.",
+      "items": [
+         "Proporcionamos cobertura en caso de robo o vandalismo de los equipos asegurados.",
+         "Cubrimos daños causados por defectos en el diseño o fabricación de los equipos.",
+         "Cubrimos los daños que puedan ocurrir durante el transporte de los equipos hacia o desde el lugar de trabajo."
+      ],
+      "offers": [
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "Ofrece protección integral para equipos de construcción contra una amplia gama de riesgos"
+         },
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Garantiza la continuidad de los proyectos al proporcionar una rápida compensación por daños materiales"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Mitiga los riesgos financieros al cubrir los costos de reparación o reemplazo de equipos dañados"
+         }
+      ],
+      "features": [
+         "<strong>Cubre equipos móviles y fijos</strong> de construcción ante daños o robo",
+         "<strong>Protección total</strong> desde el transporte hasta la operación",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "todo-riesgo-equipo-contratista",
+      "image": "images/seguro-trec.webp",
+      "altImage": "images/seguro-trec.webp"
+   },
+   {
+      "title": "Robo y Asalto",
+      "banner": "images/robos-asaltos.webp",
+      "description": "El seguro contra robos y asaltos es una póliza que proporciona <b>protección financiera en </b>caso de robo, asalto u otros <b>actos delictivos que afecten a los bienes asegurados.</b>",
+      "sinopsis": "El seguro de robo y asalto cubre pérdidas materiales ocasionadas por robo violento o con asalto.",
+      "items": [
+         "Cobertura integral contra pérdidas por robo y asalto.",
+         "Pólizas flexibles adaptadas a tus bienes y necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros contra Robo y Asalto.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/wallet.webp",
+            "label": "Compensación económica para reparar los bienes robados, dañados o vandalizados"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Paz mental al asegurar bienes cotizados por los clientes"
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": "Asistencia y asesoramiento legal en la presentación de denuncias policiales"
+         }
+      ],
+      "features": [
+         "<strong>Cubre pérdidas por robo forzado o asalto violento</strong>",
+         "<strong>Protección de activos y bienes</strong> tanto en local como en tránsito",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "robo-asalto",
+      "image": "images/seguro-robo-asalto.webp",
+      "altImage": "images/seguro-robo-asalto.webp"
+   },
+   {
+      "title": "Caución/Crédito",
+      "banner": "images/caucion-credito.webp",
+      "description": "El seguro de caución o de crédito es una póliza que <b>ofrece garantías financieras a las partes involucradas en una transacción,</b> como un contrato o un préstamo. Este tipo de seguro <b>actúa como una garantía de cumplimiento de obligaciones financieras,</b> protegiendo a los beneficiarios en caso de incuplimiento por parte del asegurado.",
+      "sinopsis": "El seguro de caución y crédito protege frente a incumplimientos contractuales y riesgos financieros.",
+      "items": [
+         "Cobertura completa para operaciones de caución y crédito.",
+         "Pólizas flexibles adaptadas a tus necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros financieros.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/currency.webp",
+            "label": "Te protege financieramente ante los daños causados por incendios"
+         },
+         {
+            "icon": "images/img-salud3.webp",
+            "label": "Cubre los costos de reparación o reposición de los bienes"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Ofrece asistencia en caso de incendio"
+         }
+      ],
+      "features": [
+         "<strong>Garantiza obligaciones contractuales y financieras</strong>",
+         "<strong>Protege frente a impagos y riesgos comerciales</strong>",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "caucion-credito",
+      "image": "images/seguro-caucion-credito.webp",
+      "altImage": "images/seguro-caucion-credito.webp"
+   },
+   {
+      "title": "Seguro 3D",
+      "banner": "images/Car-3d.webp",
+      "description": "El seguro 3D, también conocido como Daños, Defensa y Daños a Terceros, es un tipo de póliza de <b>seguro de automóvil</b> que <b>brinda cobertura amplia para proteger al asegurado en caso de accidentes de tráfico.</b> Esta cobertura generalmente incluye tres componentes principales:",
+      "sinopsis": "El seguro 3D brinda protección frente a actos deshonestos, robos y fraudes documentales.",
+      "items": [
+         "Actos deshonestos",
+         "Robo de bienes",
+         "Robo de dinero en local y en tránsito",
+         "Falsificaciones de documentos"
+      ],
+      "offers": [
+         {
+            "icon": "images/car-insurance.webp",
+            "label": "<b>Daños Propios:</b> Cubre los daños materiales sufridos por el vehículo del asegurado, ya sea por colisiones, vuelcos u otros tipos de accidentes"
+         },
+         {
+            "icon": "images/finance.webp",
+            "label": "<b>Defensa Legal:</b> Proporciona asistencia legal y cubre los gastos legales asociados con la defensa del asegurado"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "<b>Daños a Terceros:</b> Cubre los daños materiales y personales causados a terceros"
+         }
+      ],
+      "features": [
+         "<strong>Cubre delitos como desfalco, robo y falsificación</strong>",
+         "<strong>Protege activos financieros</strong> y valores en tránsito",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "daños-defensa-terceros",
+      "image": "images/seguro-3d.webp",
+      "altImage": "images/seguro-3d.webp"
+   },
+   {
+      "title": "EAR",
+      "banner": "images/earimg.webp",
+      "description": "El seguro EAR, abreviatura de \"Equipo de Aseguramiento de Riesgos\", es una <b>póliza diseñada para proteger equipos y maquinaria utilizados en proyectos de construcción, ingeniería y otros sectores industriales.</b> Esta cobertura asegura contra una amplia gama de riesgos, incluyendo daños accidentales, robo, vandalismo y daños durante el transporte.",
+      "sinopsis": "El seguro EAR cubre equipos y activos en proyectos de montaje o construcción frente a daños o pérdidas.",
+      "items": [
+         "Cobertura completa para equipos y activos de diversa índole.",
+         "Pólizas flexibles adaptadas a tus necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros EAR.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/industrial-insurance.webp",
+            "label": "Ofrece una cobertura amplia para proteger los equipos contra pérdidas o daños durante el desarrollo de proyectos industriales"
+         },
+         {
+            "icon": "images/currency.webp",
+            "label": "Migra los riesgos financieros de reparación o reemplazo de equipos dañados"
+         },
+         {
+            "icon": "images/add-tasks.webp",
+            "label": "Garantiza la continuidad de los proyectos al proporcionar una rápida compensación por daños materiales"
+         }
+      ],
+      "features": [
+         "<strong>Protege equipos en proceso de instalación</strong>",
+         "<strong>Cobertura total durante el montaje y pruebas</strong>",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "equipo-aseguramiento-riesgos",
+      "image": "images/seguro-ear.webp",
+      "altImage": "images/seguro-ear.webp"
+   },
+   {
+      "title": "Equipo Electrónico",
+      "banner": "images/laptops.webp",
+      "description": "El seguro de equipo electrónico es un tipo de póliza de seguro que <strong>proporciona cobertura financiera para daños o pérdidas de equipos electrónicos.</strong> Esta cobertura puede incluir computadoras, servidores, equipos médicos electrónicos, sistemas de telecomunicaciones y otros dispositivos tecnológicos sensibles.<strong> El objetivo principal del seguro de equipo electrónico es proteger la inversión en tecnología</strong>, brindando respaldo financiero ante eventos como cortocircuitos, sobretensiones, incendios, robos o daños accidentales.",
+      "sinopsis": "El seguro de equipos electrónicos protege dispositivos y sistemas frente a daños, robos y fallas técnicas.",
+      "items": [
+         "Cobertura completa para equipos electrónicos de todo tipo.",
+         "Pólizas flexibles adaptadas a tus necesidades específicas.",
+         "Asesoramiento personalizado de nuestro equipo de expertos en seguros electrónicos.",
+         "Proceso de reclamaciones rápido y eficiente."
+      ],
+      "offers": [
+         {
+            "icon": "images/computer-icon.webp",
+            "label": "Cobertura contra daños físicos, cortocircuitos y sobretensiones."
+         },
+         {
+            "icon": "images/digital-art.webp",
+            "label": "Protección para equipos portátiles dentro y fuera de las instalaciones"
+         },
+         {
+            "icon": "images/teamwork.webp",
+            "label": "Asistencia técnica y reemplazo rápido de equipos dañados."
+         }
+      ],
+      "features": [
+         "<strong>Protege computadoras, servidores y sistemas electrónicos</strong>",
+         "<strong>Cubre fallas, accidentes y daños eléctricos</strong>",
+         "<strong>Ver más...</strong>"
+      ],
+      "link": "equipo-electronico",
+      "image": "images/seguro-equipo-electronico.webp",
+      "altImage": "images/seguro-equipo-electronico.webp"
+   }
+]

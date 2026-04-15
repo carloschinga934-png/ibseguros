@@ -1,0 +1,401 @@
+/* =======================
+   Variables y Reset
+======================= */
+:root {
+   --primary-color: #13509F;
+   --secondary-color: #95C1FA;
+   --accent-color: #0275d8;
+   --text-light: #ffffff;
+   --text-dark: #333333;
+   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   --transition: all 0.3s ease;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   /* evita scroll horizontal */
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   line-height: 1.6;
+   color: var(--text-dark);
+}
+
+/* =======================
+   Banner principal
+======================= */
+.banner {
+   position: relative;
+   text-align: center;
+   height: 450px;
+   overflow: hidden;
+   box-shadow: var(--shadow);
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.banner img {
+   width: 100%;
+   height: 150%;
+   object-fit: cover;
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(22, 61, 116, 0.6);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 0;
+}
+
+.banner-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 80%;
+   text-align: center;
+   padding-bottom: 5%;
+}
+
+.titulo {
+   font-size: 4.5rem;
+   font-weight: 700;
+   color: var(--text-light);
+   margin-bottom: 1rem;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   letter-spacing: 2px;
+}
+
+.banner-text p {
+   color: var(--text-light);
+   font-size: 1.2rem;
+   max-width: 600px;
+   margin: 0 auto;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* =======================
+   Sección de contacto
+======================= */
+.contacto-section {
+   padding: 50px;
+   margin-top: -150px;
+   position: relative;
+   z-index: 10;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.container {
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.form-container {
+   display: flex;
+   background: #fff;
+   border-radius: 20px;
+   overflow: hidden;
+   box-shadow: var(--shadow);
+}
+
+.form-main {
+   flex: 2;
+   padding: 40px;
+   background-color: var(--secondary-color);
+   position: relative;
+}
+
+.contact-info {
+   flex: 1;
+   padding: 40px;
+   background-color: var(--primary-color);
+   color: var(--text-light);
+   position: relative;
+}
+
+.form-title,
+.info-title {
+   font-size: 1.8rem;
+   font-weight: 600;
+   margin-bottom: 30px;
+   position: relative;
+   padding-bottom: 10px;
+}
+
+.form-title {
+   color: var(--primary-color);
+}
+
+.form-title:after,
+.info-title:after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 50px;
+   height: 3px;
+}
+
+.form-title:after {
+   background-color: var(--primary-color);
+}
+
+.info-title:after {
+   background-color: var(--secondary-color);
+}
+
+/* =======================
+   Campos del formulario
+======================= */
+.form-row {
+   display: flex;
+   gap: 20px;
+   margin-bottom: 25px;
+}
+
+.form-group {
+   flex: 1;
+   position: relative;
+}
+
+.full-width {
+   width: 100%;
+}
+
+.input-with-icon {
+   position: relative;
+}
+
+.input-with-icon i {
+   position: absolute;
+   left: 15px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: var(--primary-color);
+   font-size: 1.2rem;
+   z-index: 1;
+}
+
+.textarea-container i {
+   top: 25px;
+}
+
+.form-control {
+   width: 100%;
+   padding: 15px 15px 15px 45px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.9);
+   color: var(--text-dark);
+   font-size: 1rem;
+   transition: var(--transition);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+   outline: none;
+   box-shadow: 0 0 0 2px var(--primary-color);
+   background-color: #fff;
+}
+
+textarea.form-control {
+   resize: none;
+}
+
+.error-message,
+.validation-message {
+   color: #e74c3c;
+   font-size: 0.85rem;
+   margin-top: 5px;
+   display: none;
+}
+
+/* =======================
+   Botón de envío
+======================= */
+.submit-row {
+   justify-content: center;
+   margin-top: 30px;
+   display: flex;
+}
+
+.submit-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 15px 40px;
+   background-color: var(--primary-color);
+   color: var(--text-light);
+   border: none;
+   border-radius: 50px;
+   font-size: 1.1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: var(--transition);
+   box-shadow: 0 4px 15px rgba(19, 80, 159, 0.3);
+}
+
+.submit-btn:hover {
+   background-color: #0c3b7a;
+   transform: translateY(-2px);
+   box-shadow: 0 6px 20px rgba(19, 80, 159, 0.4);
+}
+
+.submit-btn i {
+   margin-left: 10px;
+   font-size: 1.2rem;
+}
+
+.submit-btn .spinner-border {
+   display: none;
+   width: 1.2rem;
+   height: 1.2rem;
+   margin-left: 10px;
+}
+
+/* =======================
+   Información de contacto
+======================= */
+.info-item {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 30px;
+}
+
+.info-item i {
+   font-size: 1.8rem;
+   margin-right: 15px;
+   color: var(--secondary-color);
+}
+
+.info-content h3 {
+   font-size: 1.2rem;
+   margin-bottom: 5px;
+   font-weight: 600;
+}
+
+.info-content p,
+.info-content a {
+   color: rgba(255, 255, 255, 0.9);
+   font-size: 1rem;
+   margin: 0;
+}
+
+.info-content a {
+   text-decoration: none;
+   transition: var(--transition);
+}
+
+.info-content a:hover {
+   color: var(--secondary-color);
+}
+
+/* =======================
+   Imagen Ambulancia
+======================= */
+.ambulancia-container {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.ambulancia-img {
+   max-width: 100%;
+   height: auto;
+   transform: scaleX(-1);
+   filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+/* =======================
+   Responsivo
+======================= */
+@media (max-width: 768px) {
+   .contacto-section {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      background: transparent;
+      /* ✅ ya no pinta todo de negro */
+   }
+
+   .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+
+   .form-container {
+      flex-direction: column;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background-color: #100f0f;
+   }
+
+   .form-main,
+   .contact-info {
+      width: 100%;
+      padding: 20px;
+   }
+
+   .form-row {
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   .form-control {
+      width: 100%;
+   }
+
+   .ambulancia-container {
+      width: 100%;
+      margin: 15px 0;
+      text-align: center;
+   }
+
+   .ambulancia-img {
+      width: 100%;
+      height: auto;
+   }
+}
+
+@media (max-width: 480px) {
+   .titulo {
+      font-size: 2.2rem;
+   }
+
+   .form-title,
+   .info-title {
+      font-size: 1.4rem;
+   }
+
+   .submit-btn {
+      width: 100%;
+      padding: 12px;
+   }
+}

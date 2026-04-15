@@ -1,0 +1,26 @@
+[
+   {
+      "titulo": "Misión",
+      "descripcion": "Ser la fuente de seguridad y tranquilidad líder en el mercado, ofreciendo soluciones de seguros confiables y servicios financieros de calidad que protegen lo que más valoran nuestros clientes, acompañándolos en cada etapa de su vida",
+      "mensaje": "En IBSEGUROS, contamos con un equipo de expertos en seguros dedicados a brindarte un asesoramiento personalizado y soluciones adaptadas a tus necesidades. Nuestra amplia gama de seguros incluye coberturas para vida, salud, vehículo, hogar, responsabilidad civil, y mucho más",
+      "imagen" : "images/labour-day.webp"
+   },
+   {
+      "titulo": "Visión",
+      "descripcion": "Ser la empresa de seguros más reconocida y confiable por su compromiso con la excelencia, la innovación y la satisfacción de sus clientes, brindándoles la mejor experiencia posible en la gestión de sus riesgos y la protección de su patrimonio",
+      "mensaje": "Tu tranquilidad es nuestro prioridad número uno. Confía en IBSEGUROSpara proteger lo que más valoras. ¡Descubre por qué miles de clientes confían en nosotros y contáctanos hoy mismo para obtener más información o para solicitar una cotización gratuita!",
+      "imagen" : "images/man2.webp"
+   },
+   {
+      "titulo": "Valores",
+      "descripcion": "Seleccionamos estos valores corporativos para IBSEGUROS porque representan los principios fundamentales que guían nuestra empresa en el sector del seguro. La confianza es esencial para construir relaciones sólidas con nuestros clientes, el compromiso muestra nuestra dedicación hacia ellos, la innovación nos permite adaptarnos y mejorar constantemente, y la excelencia es el estándar que perseguimos en todos nuestros servicios y operaciones. Estos valores nos permiten brindar un servicio excepcional, mantenernos ala vanguardia en un mercado competitivo y garantizar la protección y tranquilidad de nuestros clientes en todo momento",
+      "mensaje": "Tu tranquilidad es nuestro prioridad número uno. Confía en IBSEGUROSpara proteger lo que más valoras. ¡Descubre por qué miles de clientes confían en nosotros y contáctanos hoy mismo para obtener más información o para solicitar una cotización gratuita!",
+      "imagen" : "images/job.webp",
+      "valores": [
+         "Confianza",
+         "Compromiso",
+         "Innovación",
+         "Excelencia"
+      ]
+   }
+]

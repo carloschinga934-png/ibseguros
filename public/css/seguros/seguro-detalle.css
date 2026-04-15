@@ -1,0 +1,265 @@
+.custom_heading-container {
+   text-align: left;
+   margin-left: 6%;
+}
+
+.enviar-btn {
+   width: 21%;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   border-radius: 15px;
+   background: #cbd1d8;
+   border: none;
+   font-weight: 500;
+   color: black;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+.enviar-btn:hover {
+   background-color: #4395f4;
+   /* Cambia este color al que prefieras */
+   color: white;
+   /* Asegura que el color del texto no cambie en el hover */
+}
+
+.p-4:hover {
+   background: linear-gradient(122deg, rgba(67, 157, 223, 0.5), rgba(182, 217, 255, 0.5));
+   /* Cambia los colores o estilos según tu preferencia */
+   transition: background 0.3s ease;
+   color: white;
+}
+
+.card_elemento {
+   position: relative;
+   overflow: hidden;
+}
+
+.card_elemento:hover .mensaje_hover {
+   opacity: 1;
+}
+
+.mensaje_hover {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(22, 51, 77, 0.52);
+   /* Fondo transparente */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* Alinear verticalmente */
+   opacity: 0;
+   /* Inicialmente invisible */
+   transition: opacity 0.3s ease;
+   border-radius: 50px;
+}
+
+.mensaje_hover p {
+   font-size: 15px;
+   color: white;
+   width: 80%;
+   margin: 5px 0;
+   /* Espacio entre párrafos */
+}
+
+.hover-title-card {
+   background: linear-gradient(122deg, #439ddf, rgba(182, 217, 255, 0.5));
+   transition: background 0.3s ease;
+}
+
+.hover-title-card p {
+   font-family: sans-serif;
+   color: rgb(76, 76, 76);
+   font-weight: bolder;
+}
+
+.banner {
+   position: relative;
+   text-align: center;
+   overflow: hidden;
+   /* Oculta cualquier contenido que sobresalga del contenedor */
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.banner img {
+   width: 100%;
+   height: 450px;
+   object-fit: cover;
+   object-position: 50% 20%;
+   /* X = centro, Y = 30% (más arriba que el 50% por defecto) */
+}
+
+.overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(22, 61, 116, 0.52);
+   /* Utiliza rgba() para especificar la opacidad */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+   /* Asegura que el overlay esté debajo del texto */
+}
+
+.banner-text {
+   position: absolute;
+   top: 50%;
+   /* Centra verticalmente el texto */
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /* Centra horizontalmente el texto */
+   z-index: 2;
+   /* Asegura que el texto esté sobre el overlay */
+}
+
+h1 {
+   font-size: 90px;
+   /* Reduzco el tamaño del texto para mejor visualización */
+   font-family: system-ui;
+   color: white;
+}
+
+.container .boton-seguros {
+   width: 217px;
+   border: 0px solid;
+   border-radius: 24px;
+   background-color: #aea9a98c;
+   color: black;
+   transition: background-color 0.3s ease;
+   font-weight: 500;
+   height: auto;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   height: 50px;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.container .boton-seguros:hover {
+   background-color: #4395f4;
+   /* Cambia este color al que prefieras */
+   color: white;
+}
+
+.texto-seguro-detalle {
+   text-align: center;
+   font-size: 18px;
+   line-height: 1.6;
+   padding: 18px;
+   margin-bottom: 25px;
+   color: #333;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.offer-card {
+   background: #ffffff;
+   border-radius: 18px;
+   padding: 40px 25px;
+   text-align: center;
+   border: 1px solid #f5f5f5;
+   /* borde sutil */
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 25px;
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+.offer-card:hover {
+   transform: translateY(-8px);
+   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18), 0 0 12px rgba(67, 157, 223, 0.15);
+   /* más profundidad + glow */
+   background: linear-gradient(122deg, rgba(67, 157, 223, 0.05), rgba(182, 217, 255, 0.12));
+}
+
+.imagen-seguro-componente {
+   width: 100%;
+   height: 120px;
+   /* tamaño fijo deseado */
+   object-fit: contain;
+   /* o cover según prefieras */
+   object-position: center;
+   display: block;
+   border-radius: 12px;
+   /* opcional */
+   margin: 0 auto 20px auto;
+}
+
+.texto-seguro-componente {
+   font-size: 18px;
+   font-weight: 600;
+   color: #333;
+   margin-top: 10px;
+   /* separación extra arriba */
+   font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+   letter-spacing: 0.5px;
+   line-height: 1.5;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: flex-start;
+   height: 120px;
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1000;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+   background-color: rgb(255, 255, 255);
+   margin: 5% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 80%;
+   max-width: 800px;
+   border-radius: 10px;
+}
+
+.close {
+   color: white;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+   color: #aaa;
+   text-decoration: none;
+   cursor: pointer;
+}

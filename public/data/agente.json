@@ -1,0 +1,72 @@
+[
+   {
+      "url": "https://www.sanitasperu.com/",
+      "imgSrc": "images/SeguroSanitas.webp",
+      "imgAlt": "SeguroSanitas"
+   },
+   {
+      "url": "https://www.pacifico.com.pe/",
+      "imgSrc": "images/SeguroPacifico.webp",
+      "imgAlt": "SeguroPacifico"
+   },
+   {
+      "url": "https://www.rimac.com/",
+      "imgSrc": "images/SeguroRimac.webp",
+      "imgAlt": "SeguroRimac"
+   },
+   {
+      "url": "https://www.lapositiva.com.pe/",
+      "imgSrc": "images/PositivaSeguro.webp",
+      "imgAlt": "SeguroPositiva"
+   },
+   {
+      "url": "https://www.mapfre.com.pe/",
+      "imgSrc": "images/Mapfre.webp",
+      "imgAlt": "SeguroMapfre"
+   },
+   {
+      "url": "https://www.avla.com/pe/",
+      "imgSrc": "images/SeguroAvla.webp",
+      "imgAlt": "SeguroAvla"
+   },
+   {
+      "url": "https://www.cesce.pe/",
+      "imgSrc": "images/SeguroSecrex.webp",
+      "imgAlt": "SeguroSecrex"
+   },
+   {
+      "url": "https://www.segurosyaseguradoras.com/aseguradoras/liberty-seguros/",
+      "imgSrc": "images/liberty.webp",
+      "imgAlt": "SeguroLiberty"
+   },
+   {
+      "url": "https://www.crecerseguros.pe/crecer-seguros/",
+      "imgSrc": "images/crecer.webp",
+      "imgAlt": "SeguroCrecer"
+   },
+   {
+      "url": "https://www.insur.com.pe/",
+      "imgSrc": "images/insur.webp",
+      "imgAlt": "SeguroInsur"
+   },
+   {
+      "url": "https://www.protectasecurity.pe/",
+      "imgSrc": "images/protecta.webp",
+      "imgAlt": "SeguroProtecta"
+   },
+   {
+      "url": "https://www.ohionational.pe/",
+      "imgSrc": "images/Ohio.webp",
+      "imgAlt": "SeguroOhio"
+   },
+   {
+      "url": "https://www.qualitasperu.com.pe/web/qpe/inicio",
+      "imgSrc": "images/Q logo.webp",
+      "imgAlt": "SeguroQlogo"
+   },
+   {
+      "url": "https://www.safetravelassistance.com/pe/",
+      "imgSrc": "images/Safe.webp",
+      "imgAlt": "SeguroSafe"
+   }
+]

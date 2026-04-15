@@ -1,0 +1,119 @@
+.contact-header {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.contact-header h2 {
+   background: linear-gradient(90deg, #000046 0%, #1cb5e0 100%);
+   background-clip: text;
+   color: transparent;
+}
+
+.contact-header iframe {
+   width: 100%;
+   height: 300px;
+}
+
+.contact-form-panel {
+   user-select: none;
+   /* Evita seleccionar texto */
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color: #ffffff;
+   /* Fondo blanco */
+   border-radius: 20px;
+   /* Esquinas redondeadas */
+   border: 1px solid #dee2e6;
+   /* Borde gris claro tipo card */
+   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+   /* Sombra marcada pero elegante */
+   gap: 20px;
+   /* Separación entre formulario e imagen */
+}
+
+.form-image {
+    width: 50%;
+    height: 700px;
+    max-height: 700px;
+    background-color: #13509F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-image img {
+   width: 80%;
+   height: auto;
+   /* Mantener proporción */
+   object-fit: contain;
+   /* Evita que se estire */
+}
+
+.btn-submit {
+   background: linear-gradient(90deg, #1cb5e0, #000046);
+   /* Degradado azul oscuro → celeste */
+   color: #fff;
+   border: none;
+   border-radius: 50px;
+   /* Bordes tipo píldora */
+   padding: 12px 30px;
+   font-size: 1.1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   /* Animaciones suaves */
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   /* Separación entre texto e ícono */
+}
+
+.btn-submit:hover {
+   transform: translateY(-3px);
+   /* Leve elevación al pasar el mouse */
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+   /* Sombra más marcada */
+}
+
+/* Animación del icono */
+.btn-submit i {
+   transition: transform 0.3s ease;
+}
+
+.btn-submit:hover i {
+   transform: translateX(5px) rotate(10deg);
+   /* Movimiento y rotación ligera al hover */
+}
+
+#messageInput {
+   height: 100px;
+}
+
+/* --- Media Queries para mobile --- */
+@media (max-width: 768px) {
+   .contact-form-panel {
+      flex-direction: column;
+      /* Apilar verticalmente */
+      align-items: center;
+      gap: 30px;
+      padding: 3%;
+   }
+
+   .form-image,
+   .form-container {
+      width: 100%;
+      /* Ocupan todo el ancho */
+   }
+
+   .form-image {
+      max-height: 300px;
+      /* Ajustar altura en móvil */
+   }
+}

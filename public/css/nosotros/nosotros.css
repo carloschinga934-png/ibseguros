@@ -1,0 +1,328 @@
+.carouselFondo2 {
+   background-image: url('/images/laptops.webp');
+   background-size: cover;
+   background-position: center center;
+   /* Centra la imagen verticalmente */
+   background-repeat: no-repeat;
+   position: relative;
+   overflow: hidden;
+   height: 750px;
+}
+
+.overlay2 {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(23, 35, 70, 0.52);
+   /* Color azul con 50% de opacidad */
+}
+
+.overlay2 h2 {
+   color: white;
+   font-size: 100px;
+   font-weight: bold;
+   width: 500px;
+}
+
+@media screen and (max-width: 480px) {
+   .overlay2 h2 {
+      color: white;
+      font-size: 64px;
+      font-weight: bold;
+      position: relative;
+      text-align: center;
+      margin-left: 0px;
+   }
+}
+
+.overlay2 p {
+   color: white;
+   font-size: 20px;
+   width: 790px;
+}
+
+.enlace2 {
+   text-decoration: none;
+   color: white;
+   text-align: right;
+   margin-left: 55px;
+   transition: text-shadow 0.3s ease;
+}
+
+.enlace2 h4 {
+   font-size: clamp(1rem, 2vw, 1.5rem);
+   line-height: 1.4;
+   text-decoration: none;
+}
+
+.enlace2:hover {
+   text-decoration: none;
+   text-shadow: 0 0 20px rgb(255, 255, 255);
+   /* Crea un efecto de brillo con una sombra blanca */
+   color: white;
+   /* Asegura que el texto siga siendo blanco */
+   text-align: left;
+   margin-left: 55px;
+}
+
+
+@media only screen and (max-width: 500px) {
+   .overlay2 p {
+      margin-left: 25px !important;
+   }
+}
+
+
+@media only screen and (max-width: 375px) {
+   .enlace2.mision {
+      margin-left: -13% !important;
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .enlace2.vision {
+      margin-left: -19px !important;
+   }
+}
+
+.contenedor {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   /* Tres columnas de igual ancho */
+   gap: 20px;
+   /* Espacio entre las columnas */
+   justify-items: center;
+   /* Centra los elementos horizontalmente */
+   align-items: center;
+   /* Centra los elementos verticalmente */
+   margin-top: 180px;
+
+}
+
+@media (max-width: 480px) {
+   .col-md-6.order-md-1 {
+      margin-left: 0 !important;
+   }
+}
+
+
+@media (max-width: 844px) {
+   .col-md-6.order-md-1 {
+      margin-left: 0 !important;
+   }
+}
+
+@media (max-width: 1132px) {
+   .col-md-6.order-md-1 {
+      margin-left: 0 !important;
+   }
+}
+
+.custom_heading-container {
+   text-align: left;
+   margin-left: 6%;
+}
+
+.enviar-btn {
+   width: 21%;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   border-radius: 15px;
+   background: #cbd1d8;
+   border: none;
+   font-weight: 500;
+   color: black;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+}
+
+.enviar-btn:hover {
+   background-color: #4395f4;
+   /* Cambia este color al que prefieras */
+   color: white;
+   /* Asegura que el color del texto no cambie en el hover */
+
+}
+
+.p-4:hover {
+   background: linear-gradient(122deg, rgba(67, 157, 223, 0.5), rgba(182, 217, 255, 0.5));
+   /* Cambia los colores o estilos según tu preferencia */
+   transition: background 0.3s ease;
+   color: white;
+}
+
+.card_elemento {
+   position: relative;
+   overflow: hidden;
+}
+
+.card_elemento:hover .mensaje_hover {
+   opacity: 1;
+}
+
+.mensaje_hover {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgb(22, 51, 77, 0.52);
+   /* Fondo transparente */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   /* Alinear verticalmente */
+   opacity: 0;
+   /* Inicialmente invisible */
+   transition: opacity 0.3s ease;
+   border-radius: 50px;
+}
+
+.mensaje_hover p {
+   font-size: 15px;
+   color: white;
+   width: 80%;
+   margin: 5px 0;
+   /* Espacio entre párrafos */
+}
+
+
+@media only screen and (max-width: 500px) {
+   .overlay2 p {
+      margin-left: 25px !important;
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .enlace2.mision {
+      margin-left: -13% !important;
+   }
+}
+
+@media only screen and (max-width: 375px) {
+   .enlace2.vision {
+      margin-left: -19px !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .mt-4 {
+      text-align: center !important;
+   }
+
+   .a {
+      text-align: justify !important;
+      padding: 18px 13px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .mt-4.a {
+      padding: 18px 13px !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .img-fluid {
+      margin-left: 0px !important;
+      max-width: 100% !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   .custom-padding {
+      margin-top: 4% !important;
+      margin-left: 3% !important;
+      margin-right: 3% !important;
+      padding: 9px 21px !important;
+   }
+}
+
+.custom-padding {
+   /* Sombra más visible para efecto 3D marcado */
+   box-shadow:
+      0 6px 10px rgba(0, 0, 0, 0.35),
+      0 12px 25px rgba(0, 0, 0, 0.25),
+      0 18px 50px rgba(0, 0, 0, 0.15);
+
+   /* Transición suave */
+   transition:
+      transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
+      box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+   will-change: transform;
+}
+
+.custom-padding:hover {
+   transform: translateY(-12px);
+   box-shadow:
+      0 14px 25px rgba(0, 0, 0, 0.45),
+      0 20px 45px rgba(0, 0, 0, 0.35),
+      0 28px 60px rgba(0, 0, 0, 0.25);
+
+   /* El gradiente se desplaza a la derecha */
+   background-position: 100% 0;
+}
+
+.contenedor a.enlace2 {
+   position: relative;
+   color: white;
+   text-decoration: none;
+   display: inline-block;
+   padding-bottom: 6px;
+}
+
+/* Línea inicial desde la izquierda, muy gruesa */
+.contenedor a.enlace2::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   /* empieza desde la izquierda */
+   width: 0;
+   /* inicialmente invisible */
+   height: 4px;
+   /* grosor más grande */
+   background: white;
+   transition: width 0.5s ease;
+}
+
+/* Hover: la línea se expande hacia la derecha */
+.contenedor a.enlace2:hover::after {
+   width: 100%;
+   /* ocupa todo el ancho del enlace */
+}
+
+i {
+   display: inline-block;
+   transition: transform 0.4s;
+}
+
+/* Confianza - giro */
+.confianza:hover i {
+   transform: rotate(-20deg) rotateY(20deg);
+}
+
+/* Compromiso - latido */
+.compromiso:hover i {
+   transform: scale(1.2);
+}
+
+/* Excelencia - salto */
+.excelencia:hover i {
+   transform: translateY(-10px);
+}
+
+/* Innovación - bombilla crece al pasar el cursor */
+#bulb {
+   font-size: 60px;
+   transition: transform 0.6s ease;
+   /* transición suave */
+}
+
+.innovacion:hover #bulb {
+   transform: scale(1.2);
+   /* crece un 20% */
+}
